@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of HTML5, accessibility, and SEO through this beginner-friendly web page example.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, web design, beginner tutorial">
+    <meta name="author" content="Your Name">
+
+    <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+    <!-- Header Landmark -->
+    <header>
+        <h1>HTML5 + Accessibility & SEO Basics</h1>
+        <p>Building a semantic, accessible, and SEO-friendly web page.</p>
+
+        <!-- Navigation Landmark -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about" title="Learn about this page">About</a></li>
+                <li><a href="#accessibility" title="Accessibility tips">Accessibility</a></li>
+                <li><a href="#seo" title="SEO tips">SEO</a></li>
+                <li><a href="#contact" title="Contact us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Landmark -->
+    <main>
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This page demonstrates how to use HTML5 semantic tags, accessibility best practices, and beginner SEO principles to create a well-structured, user-friendly, and search-engine-friendly website.</p>
+        </section>
+
+        <!-- Accessibility Section -->
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Accessibility Best Practices</h2>
+            <p>Accessibility ensures your website can be used by everyone, including people with disabilities. Use semantic HTML5 elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> for screen reader navigation.</p>
+            <ul>
+                <li>Provide descriptive <code>alt</code> text for images.</li>
+                <li>Use proper heading order (H1 → H2 → H3).</li>
+                <li>Label navigation with <code>aria-label</code> for clarity.</li>
+            </ul>
+        </section>
+
+        <!-- SEO Section -->
+        <section id="seo" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">Beginner SEO Tips</h2>
+            <p>Search Engine Optimization (SEO) helps search engines understand your content. Good SEO starts with clear, structured, and relevant information.</p>
+            <ul>
+                <li>Use descriptive titles and meta descriptions.</li>
+                <li>Structure content with semantic headings.</li>
+                <li>Use keywords naturally within content.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>If you have any questions about HTML5, accessibility, or SEO, feel free to <a href="mailto:you@example.com">email us</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer Landmark -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
